@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>PAYMENT FORM | HOME</title>
+</head>
+
+<body>
+  <form action="">
+    <hr size="3" color="black">
+    <h1 align=center>PAYMENT FORM</h1>
+    <hr size="3" color="black">
+    <fieldset>
+      <H2>Contact Information:</H2>
+    </fieldset>
+
+    <p><strong>FirstName:*</strong><input type="text" name="FirstName" required></p>
+    <p><strong>LastName:*</strong><input type="text" name="LastName" required></p>
+    <fieldset>
+      <legend><strong>Gender*</strong></legend>
+      <p>
+        Male:<input type="radio" name="Gender" id="Male">
+        Female: <input type="radio" name="Gender" id="Female">
+      </p>
+    </fieldset>
+    <p><strong>Address:*</strong><textarea name="address" rows="7" cols="40"></textarea></p>
+    <p><strong>Email:*</strong> <input type="email name=" email" id="email" required></p>
+    <p><strong>Pincode:*</strong> <input type="number" name="pincode" id="pincode" required></p>
+    <fieldset>
+      <h2>Payment Information:</h2>
+    </fieldset>
+    <p><strong>Cardtype:*</strong> <select name="Cardtype" id="Cardtype" required>
+        <option value="">---Select Cardtype---</option>
+        <option value="Rupay">Rupay</option>
+        <option value="Visa">Visa</option>
+        <option value="MasterCard">MasterCard</option>
+        <option value="LigerCard">LigerCard</option>
+      </select></p>
+
+    <p><strong>CardNumber:* <input type="number" name="CardNumber" id="Cardtype" required></strong></p>
+    <p><strong>Expiration Date:*</strong> <input type="date" name="Expiration date" id="expiration date" required></p>
+    <p><strong>CVV:*</strong> <input type="number" name="CVV" id="CVV" required></p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Paynow">&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp; <input type="submit" value="Reset"></p>
+
+
+  </form>
+  <hr size="3" color="black">
+</body>
+
+</html>
